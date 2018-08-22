@@ -7,6 +7,9 @@ const form = document.querySelector('#task-form'),
 // Events
 loadEventListeners();
 
+// Load Tasks from lc
+getTasks();
+
 // Function - hoisted
 function loadEventListeners() {
     // DOM Load Event
